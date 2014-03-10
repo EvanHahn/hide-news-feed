@@ -1,0 +1,16 @@
+{
+  "name": "Hide Facebook news feed",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "description": "Hide the news feed on Facebook.",
+  "homepage_url": "https://github.com/EvanHahn/hide-news-feed",
+  "content_scripts": [
+    {
+      "matches": [
+        "http://facebook.com/*",
+        "https://facebook.com/*"
+      ],
+      "css": ["the.css"]
+    }
+  ]
+}

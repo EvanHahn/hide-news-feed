@@ -1,0 +1,13 @@
+/*
+Thanks to Sam Mularczyk for this.
+http://userstyles.org/styles/93003/facebook-hide-news-feed
+*/
+
+.home #contentCol.homeFixedLayout #stream_pagelet > div {
+  display: none !important;
+}
+
+.home #contentCol.homeFixedLayout #stream_pagelet > div#pagelet_megaphone,
+.home #contentCol.homeFixedLayout #stream_pagelet > div#pagelet_composer {
+  display: block !important;
+}
